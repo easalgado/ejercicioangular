@@ -5,7 +5,7 @@ import { LugarNacimientoComponent } from './pages/lugar-nacimiento/lugar-nacimie
 import { DescripcionComponent } from './pages/descripcion/descripcion.component';
 import { MetasComponent } from './pages/metas/metas.component';
 
-const routes: Routes =[
+const routes: Routes = [
   {
     path: 'descripcion',
     component: DescripcionComponent
@@ -20,7 +20,7 @@ const routes: Routes =[
     },
     {
       path: '**',
-      redirectTo: 'descripcion'
+      redirectTo: 'home'
       }
      
    ];
